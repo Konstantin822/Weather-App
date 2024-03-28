@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <h1>Weather App</h1>
+                <div>
+                    <input type="text" class="header-inp" placeholder="Enter city name">
+                    <button class="header_search-btn">Search</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="weather-forecast">
+                <div class="weather">
+                    <h2 class="weather_city">Odessa, UA</h2>
+                    <div class="weather__temp-box">
+                        <img src="./img/clear.png" class="weather__temp-box_img" alt="">
+                        <div>
+                            <p class="weather__temp-box_temp">26 °C</p>
+                            <p class="weather__temp-box_humidity">0 %</p>
+                        </div>
+                    </div>
+                    <p class="weather_description">Clear</p>
+                </div>
+
+                <div class="forecast-hour">
+                    <p class="forecast-hour_cast-header">Upcoming forecast</p>
+                    <div class="forecast-hour__tempList">
+
+                        <div class="forecast-hour__tempList_next">
+                            <div>
+                                <p class="time">8:00 AM</p>
+                                <p>26 °C / 20 °C</p>
+                            </div>
+                            <p class="description">Clear</p>
+                        </div>
+
+                        <div class="forecast-hour__tempList_next">
+                            <div>
+                                <p class="time">8:00 AM</p>
+                                <p>26 °C / 20 °C</p>
+                            </div>
+                            <p class="description">Clear</p>
+                        </div>
+
+                        <div class="forecast-hour__tempList_next">
+                            <div>
+                                <p class="time">8:00 AM</p>
+                                <p>26 °C / 20 °C</p>
+                            </div>
+                            <p class="description">Clear</p>
+                        </div>
+
+                        <div class="forecast-hour__tempList_next">
+                            <div>
+                                <p class="time">8:00 AM</p>
+                                <p>26 °C / 20 °C</p>
+                            </div>
+                            <p class="description">Clear</p>
+                        </div>
+
+                        <div class="forecast-hour__tempList_next">
+                            <div>
+                                <p class="time">8:00 AM</p>
+                                <p>26 °C / 20 °C</p>
+                            </div>
+                            <p class="description">Clear</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast-days">
+                <p class="forecast-days_cast-header">Next 4 days forecast</p>
+                <div class="forecast-days__days">
+                    <div class="day">
+                        <p class="date">Sat March 22 2024</p>
+                        <p class="temp">26 °C / 20 °C</p>
+                        <p class="description">Cloudy</p>
+                    </div>
+
+                    <div class="day">
+                        <p class="date">Sat March 22 2024</p>
+                        <p class="temp">26 °C / 20 °C</p>
+                        <p class="description">Cloudy</p>
+                    </div>
+
+                    <div class="day">
+                        <p class="date">Sat March 22 2024</p>
+                        <p class="temp">26 °C / 20 °C</p>
+                        <p class="description">Cloudy</p>
+                    </div>
+
+                    <div class="day">
+                        <p class="date">Sat March 22 2024</p>
+                        <p class="temp">26 °C / 20 °C</p>
+                        <p class="description">Cloudy</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
