@@ -11,6 +11,7 @@ FEATURES
 TECHNOLOGIES USED
 - HTML
 - CSS
+- SASS
 - JavaScript
 - [API used for weather data, e.g., OpenWeatherMap API]
 
