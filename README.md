@@ -5,7 +5,7 @@ It's built with modern web technologies and provides a clean, user-friendly inte
 
 FEATURES
 - Search for cities globally to get real-time weather data.
-- Display weather information including temperature, humidity, wind speed, and more.
+- Display temperature and humidity.
 - User-friendly interface.
 
 TECHNOLOGIES USED
